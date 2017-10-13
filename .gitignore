@@ -1,0 +1,6 @@
+*.pyc
+.idea
+.git
+derby.log
+metastore_db
+
