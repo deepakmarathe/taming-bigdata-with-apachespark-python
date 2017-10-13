@@ -3,4 +3,5 @@
 .git
 derby.log
 metastore_db
+ml-100k/
 
