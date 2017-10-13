@@ -9,6 +9,9 @@
 	- movies data : movie recommendations
 	- superheroes data : find degrees of separation
 
+## Java Installation 
+    follow the standard steps for installting java from oracle's website. 
+    
 ## Spark installation(Mac Os) :
 Resource : http://media.sundog-soft.com/spark-python-install.pdf
 
@@ -30,3 +33,32 @@ Resource : http://media.sundog-soft.com/spark-python-install.pdf
 
 ## Python Installation :
 Use anaconda distribution of python. I am working with python 2.7
+
+
+Introduction to spark : 
+    
+    what is spark : a fast and general engine for large-scale data processing
+    divide and conquer - split large data into multiple machines and process them parallely.
+   
+    Run programs upto 100x faster than Hadoop MapReduce in memory, or 10x faster on disk.
+    
+    DAG engine (directed acyclic graph) optimizes workflows
+    
+    Code in Python,Java, or Scala
+    
+    Built around one main concept : the Resilient Distributed Dataset (RDD)
+    
+    Transforming RDD's : 
+        map
+        flatmap
+        filter
+        distinct
+        sample
+        union, intersection, subtract, cartesian 
+    Actions on RDD's :  
+        collect
+        count
+        countByValue
+        take
+        top
+        reduce   
