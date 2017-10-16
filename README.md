@@ -33,9 +33,12 @@ Resource : http://media.sundog-soft.com/spark-python-install.pdf
 
 ## Python Installation :
 Use anaconda distribution of python. I am working with python 2.7
+use conda tool to install pyspark module. 
+    
+    conda install pyspark
 
 
-Introduction to spark : 
+# Introduction to spark : 
     
     what is spark : a fast and general engine for large-scale data processing
     divide and conquer - split large data into multiple machines and process them parallely.
@@ -49,8 +52,8 @@ Introduction to spark :
     Built around one main concept : the Resilient Distributed Dataset (RDD)
     
     Transforming RDD's : 
-        map
-        flatmap
+        map : transforms each element of an RDD into one new element.
+        flatmap : can create many new elements from each one
         filter
         distinct
         sample
@@ -61,4 +64,10 @@ Introduction to spark :
         countByValue
         take
         top
-        reduce   
+        reduce
+        
+    Key-Value RDD
+    Filters
+    ReduceByKey
+    
+    
