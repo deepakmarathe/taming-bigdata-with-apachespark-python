@@ -70,4 +70,6 @@ use conda tool to install pyspark module.
     Filters
     ReduceByKey
     
+    Broadcast variables / Broadcast object
+    
     
