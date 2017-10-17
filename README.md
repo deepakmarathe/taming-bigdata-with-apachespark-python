@@ -70,6 +70,27 @@ use conda tool to install pyspark module.
     Filters
     ReduceByKey
     
-    Broadcast variables / Broadcast object
+    Broadcast variables / Broadcast object : share information efficiently across all the nodes of the cluster. 
     
+    Accumulator : allows many executors to increment a shared variable 
+        - Breadth-First-Search
+    Lazy Evaluation 
+    
+    SparkConf().setMaster("local[*]") : executors use all the cores we got, instead of running on a single one.
+    
+    Use rdd.cache() or rdd.persist() when performing more than 1 action on an rdd. 
+        cache() caches in memory.
+        persist() persists to disk instead of just memory, just in case a node fails or something.
+    
+    Use cases : 
+        simple : 
+            word count
+            most popular movie in a dataset.
+            frequency distribution, histograms
+        involved : 
+            Item based collaborative filtering
+            Degrees of separation in a social network.
+            Movie similarity
+     
+    Elastic Map Reduce : running spark on a cluster 
     
