@@ -1,5 +1,4 @@
 from pyspark import SparkConf, SparkContext
-import collections
 
 conf = SparkConf().setMaster("local").setAppName("Simple app")
 sc = SparkContext(conf = conf)

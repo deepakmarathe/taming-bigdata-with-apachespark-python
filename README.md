@@ -1,4 +1,4 @@
-#Course : Taming bigdata with apache spark - Hands on
+# Course : Taming bigdata with apache spark - Hands on
 
 ## Apache spark
 
